@@ -9,6 +9,9 @@
 <meta name="author" content="LayoutIt!">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<script type="text/javascript" language="javascript">
+	window.open('login.html');	
+</script>
 </head>
 <body style="padding-top:50px;padding-bottom:10px">
 
@@ -16,8 +19,9 @@
 	<div class="row">
 		<div class="col-md-12">
 			<nav class="headbar navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-				<div class="navbar-header">					 
-					<a class="navbar-brand">Potomu</a>
+				<div class="navbar-header">
+                	<img src="icon/Logo2.png" width="50px" height="50px">				
+                    <!--a class="navbar-brand" style="color:#FFFFFF" >Potomu</a-->
 				</div>				
 			</nav>
 		</div>
@@ -25,7 +29,7 @@
     
 	<div class="row">
 		<div class="col-md-12">
-			<form role="form" action="index.html">
+			<form role="form" action="">
             	<div class="form-group">
                     <center><h4>Selamat datang di Potomu</h4><p>belanja lebih mudah dan praktis !!</p></center><br>
                     <p><i>Silahkan login</i></p>
@@ -44,16 +48,16 @@
 					</label>
 					<input class="form-control" id="password" type="password" required>
 				</div>
-                <button type="submit" class="btn btn-block btn-success">
+                <button type="submit" class="btn btn-block btn-success" onClick="window.location.replace('beranda.html');">
                     Masuk
                 </button> 
-                <button type="button" class="btn btn-block btn-success">
+                <button type="button" class="btn btn-block btn-success" onClick="window.location.replace('daftar.html');">
                     Buat akun baru
                 </button>
-                <button type="button" class="btn btn-block btn-success">
+                <button type="button" class="btn btn-block btn-success" onClick="window.location.replace('#');">
                     Lupa
-                </button>
-			</form> 
+                </button> 
+			</form>
     	</div>
     </div>
         
@@ -61,7 +65,7 @@
 		<div class="col-md-12">
 			<nav class="footbar navbar-inverse navbar navbar-default navbar-fixed-bottom">
             	<ul class="nav navbar-nav navbar-right">
-                	<li><a>&nbsp;&nbsp;&copy; Potomu 2016 &nbsp;&nbsp;</a></li>
+                	<li style="color:#FFFFFF"><center>Copyright &copy; Potomu 2016</center></li>
                 </ul>
             </nav>
 		</div>

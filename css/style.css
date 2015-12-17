@@ -1,8 +1,19 @@
+a{ 
+	color:#009900;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+a:hover{ 
+	color:#00FF00;
+	cursor:pointer;
+	text-decoration:blink;
+}
 #body{
 	/*background-color:#00FFCC;*/
 }
 .row{
-	font-size:9px;
+	/*font-size:9px;*/
 }
 .container-fluid{
 	/*background-color:#00FFCC;*/
@@ -20,17 +31,20 @@
 .btn btn-block btn-success{
 	color:#FFFFFF;
 }
-a.navbar-brand{
-	color:#FFFFFF;
-	font-size:20px;
+.navbar-brand{
+	/*color:#FFFFFF;*/
+	/*font-size:20px;*/
 	font-family:"monotype Corsiva";
+}
+.navbar-header a:{
+	/*color:#FF0000;*/
 }
 
 .headbar, .footbar {
-	color:#009900;
+	color:#039370;
 	border: solid 1px #003300;
 	background:#009933
-	background: -webkit-gradient(linear, left top, left bottom, from(#009966), to(#009900));
-	background: -moz-linear-gradient(top,  #009966,  #009900);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#009966', endColorstr='#009900');
+	background: -webkit-gradient(linear, left top, left bottom, from(#009966), to(#039370));
+	background: -moz-linear-gradient(top,  #009966,  #039370);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#009966', endColorstr='#039370');
 }
