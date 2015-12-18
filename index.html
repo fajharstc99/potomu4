@@ -19,12 +19,12 @@
 	  if(i<100){
 		$('.progress-bar').css('width', i+'%');
 	  } else {
-		window.location.replace('login.html');
 		clearTimeout(counter);
+		window.location.replace('login.html');
 		//clearInterval(counter);
 	  }
 	  
-	}, 1);
+	}, 100);
 	//window.open('login.html');	
 </script>
 </head>
