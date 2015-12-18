@@ -20,7 +20,8 @@
 		$('.progress-bar').css('width', i+'%');
 	  } else {
 		window.location.replace('login.html');
-		clearTimeout(counter);
+		//clearTimeout(counter);
+		clearInterval(counter);
 	  }
 	  
 	}, 1);
