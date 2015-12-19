@@ -23,32 +23,15 @@
 	}
 	*/window.open('beranda.html');	
 </script-->
+
 </head>
 <body style="padding-top:60px;padding-bottom:10px">
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-12">
-			<div class="tabbable" id="tabs-715366">
-            	<center>
-				<ul class="nav nav-tabs">
-					<li>
-						<a href="#panel-x001" data-toggle="tab"><img src="icon/beranda.png" height="35px" width="35px"></a><!--Beranda-->
-					</li>
-					<li>
-						<a href="#panel-x002" data-toggle="tab"><img src="icon/keranjang.png" height="35px" width="35px"></a><!--Keranjang-->
-					</li>
-					<li>
-						<a href="#panel-x003" data-toggle="tab"><img src="icon/pasar.png" height="35px" width="35px"></a><!--Pasar-->
-					</li>
-					<li>
-						<a href="#panel-x004" data-toggle="tab"><img src="icon/info.png" height="35px" width="35px"></a><!--Info-->
-					</li>
-				</ul>
-                </center>
-                
-				<div class="tab-content" style="padding-top:10px">
-					<div class="tab-pane active" id="panel-x001">
-                        <div class="media-body">
+		<div class="col-md-12">     
+            <div class="tab-content" style="padding-top:25px">
+                <div class="tab-pane active" id="panel-x001">
+                    <div class="media-body">
                         <div style="overflow:scroll">
                             <h6 class="media-heading">Zikran <i>(15/12/2015 10:08)</i></h6>
                             Daftar pembelian :<br>
@@ -114,49 +97,72 @@
                                 </div>
                             </div><hr>
                         </div>    
-                        </div>
-					</div>
-                    
-					<div class="tab-pane" id="panel-x002">
-						<p>
-							Keranjang belanja bla bla 
-						</p>
-					</div>
-                    
-					<div class="tab-pane" id="panel-x003">
-						<p>
-							Market bla bla 
-						</p>
-					</div>
-                    
-					<div class="tab-pane" id="panel-x004">
-						<p>
-							Info bla bla 
-						</p>
-					</div>
-				</div>
-			</div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="panel-x002">
+                    <p>
+                        Keranjang belanja bla bla 
+                    </p>
+                </div>
+                
+                <div class="tab-pane" id="panel-x003">
+                    <p>
+                        Market bla bla 
+                    </p>
+                </div>
+                
+                <div class="tab-pane" id="panel-x004">
+                    <p>
+                        Info bla bla 
+                    </p>
+                </div>
+            </div>
+			
             
-			<nav class="headbar navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-				<div class="navbar-header">					 
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    	<img src="icon/toggle.png" height="15px" width="15px">
-					</button>
-                	<img src="icon/Logo2.png" width="55px" height="55px">					
-                    <!--a class="navbar-brand" style="color:#FFFFFF" >Potomu</a-->
-				</div>
-				
+			<nav class="headbar navbar navbar-default navbar-fixed-top" role="navigation">
+				<div>	                    
+                    <div class="tabbable" id="tabs-715366">
+                        <ul class="nav nav-tabs" style="padding-left:0px">		
+                            <li>
+                                <a class="navbar-header" class="warna navbar-header navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="background-color:#039370; height:65px; border-bottom-color:#039370;padding-left:2px;"><img src="icon/Logo2.png" width="50px" height="50px"></a>
+                            </li>
+                            <li>
+                                <a href="#panel-x001" data-toggle="tab" style="background-color:#039370; border-bottom-color:#039370"><img src="icon/beranda.png" height="43px" width="35px"></a>
+                            </li>
+                            <li>
+                                <a href="#panel-x002" data-toggle="tab" style="background-color:#039370; border-bottom-color:#039370"><img src="icon/keranjang.png" height="43px" width="35px"></a>
+                            </li>
+                            <li>
+                                <a href="#panel-x003" data-toggle="tab" style="background-color:#039370; border-bottom-color:#039370"><img src="icon/pasar.png" height="43px" width="35px"></a>
+                            </li>
+                            <li>
+                                <a href="#panel-x004" data-toggle="tab" style="background-color:#039370; border-bottom-color:#039370"><img src="icon/info.png" height="43px" width="35px"></a>
+                            </li>
+                        </ul>
+                   </div>	
+				</div>	
+               			
 				<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="warna nav navbar-nav navbar-left" style="padding-top:10px; padding-bottom:10px">
+						<b><li>
+							<a onClick="window.location.replace('#');">
+                            <img src="icon/pengaturan.png" height="20px" width="20px">
+                            Pengaturan
+                            </a>
+                        </li><hr>
+                        <li>
+							<a onClick="window.location.replace('potomu.html');">
+                            <img src="icon/potomu.png" height="20px" width="20px">
+                            Potomu
+                            </a>
+						</li><hr>
 						<li>
-							<a onClick="window.location.replace('#');"><img src="icon/pengaturan.png" height="20px" width="20px">  Pengaturan</a>
+							<a onClick="window.location.replace('login.html');"><img src="icon/keluar.png" height="20px" width="20px">
+                            Keluar
+                            </a>
 						</li>
-						<li>
-							<a onClick="window.location.replace('potomu.html');"><img src="icon/potomu.png" height="20px" width="20px">  Potomu</a>
-						</li>
-						<li>
-							<a onClick="window.location.replace('login.html');"><img src="icon/keluar.png" height="20px" width="20px">  Keluar</a>
-						</li>
+                        </b>
 					</ul>
 				</div>       				
 			</nav>

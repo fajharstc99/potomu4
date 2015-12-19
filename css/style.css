@@ -9,6 +9,27 @@ a:hover{
 	cursor:pointer;
 	text-decoration:blink;
 }
+.navbar-inverse{
+	background-color:#00CC99;
+}
+.warnax {
+	background-color:#00CC99;
+}
+.warna a{ 
+	color:#00FFCC;
+	cursor:pointer;
+	text-decoration:none;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+.warna a:hover{ 
+	color:#FFFFFF;
+	cursor:pointer;
+	text-decoration:blink;
+	padding-left:5px;
+	text-decoration:blink;
+}
 #body{
 	/*background-color:#00FFCC;*/
 }
@@ -42,7 +63,7 @@ a:hover{
 
 .headbar {
 	color:#039370;
-	border: solid 1px #039370;
+	border:dotted 2px #039370;
 	background:#039370;
 	background-color:#039370;
 	/*background: -webkit-gradient(linear, left top, left bottom, from(#009966), to(#039370));
@@ -62,4 +83,23 @@ a:hover{
 .footbarx{
 	background-color:#FFFFFF;
 	border-color:FFFFFF;
+}
+.hijau {
+	color:#039370;
+	border: solid 1px #039370;
+	background:#039370;
+	background-color:#039370;
+}
+#pan a{ 
+	color:#000000;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+#pan a:hover{ 
+	color:#000000;
+	cursor:pointer;
+	text-decoration:blink;
+	font-weight:bold;
 }
